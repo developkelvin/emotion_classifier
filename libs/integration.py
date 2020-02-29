@@ -1,2 +1,0 @@
-from libs.model import *
-
