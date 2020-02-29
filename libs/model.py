@@ -95,7 +95,7 @@ class TextClassifier(Classifier):
         # reference : https://www.tensorflow.org/guide/keras/save_and_serialize
         self.model = keras.models.load_model(model_path)
 
-    def preprocess_data(self):
+    def preprocess_all_data(self):
         text_dset = self.text_dset
         def preprocess_X(texts, maxlen=100):
             from nltk.corpus import stopwords
@@ -142,7 +142,12 @@ class TextClassifier(Classifier):
         self.y_test = preprocess_y(test['emotion'])
 
 
-    def predict(self):
+    def preprocess_one_data(self, script_id):
+        self.X_test = None
+        self.y_test = None
+        pass
+
+    def predict_all_test(self):
         """[불러온 모델을 이용하여 클래스를 예측합니다.]
         
         Returns:
@@ -152,6 +157,20 @@ class TextClassifier(Classifier):
         print(pred)
         pred = self.le.inverse_transform(pred)
         print(pred)
+        return pred
+
+    def predict(self, script_id):
+        """한 개의 script id에 대한 감정 예측
+        
+        Arguments:
+            script_id {[type]} -- [description]
+        
+        Returns:
+            [type] -- [description]
+        """
+        self.preprocess_one_data(script_id)
+        pred = self.model.predict_classes(self.X_test)
+        pred = self.le.inverse_transform(pred)
         return pred
 
     def make_text_dataset(self, session_num, print_warn=False, include_neu=False):
