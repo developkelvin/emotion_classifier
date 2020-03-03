@@ -2,11 +2,14 @@ dataset/iemocap_audio
 dataset/IEMOCAP_full_release/*
 dataset/labels
 image_model
-models
 cnn_audio_demo.py
 test.py
 .vscode
 requirements.txt
+models/cnn_test2.h5
+models/model_1.h5
+models/model_32_10.h5
+models/model_32_10.json
 
 # Created by https://www.gitignore.io/api/python,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=python,visualstudiocode
