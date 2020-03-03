@@ -1,0 +1,555 @@
+script_id,start_time,end_time,text,emotion,use
+Ses02F_impro01_F000,5.3661,9.615,"Hi. Excuse me. Um, I'd like to put in this application for my registration.",neu,train
+Ses02F_impro01_M001,9.8327,15.9334,"Okay. Let me see here. Um, we need--we need your original birth certificate.",neu,test
+Ses02F_impro01_M002,20.5395,23.2318,Right. Well. We still need it.,neu,train
+Ses02F_impro01_M017,150.5061,155.603,"Ok, but you're right now you're holding up more people in line by standing here-- and letting",ang,train
+Ses02F_impro01_F018,154.0504,159.7574,"Well, why didn't the D.M.V. put that you needed your birth certificate on the application then?",ang,train
+Ses02F_impro01_M019,164.5945,166.9199,"You know, Official documentation--",ang,train
+Ses02F_impro01_F019,164.674,169.8898,"Yeah, but your birth certificate--I mean, who carries around their birth certificate? Nobody does that.",ang,validation
+Ses02F_impro01_F020,171.5438,175.7488,With your driver's license and your passport. Just like everybody else.,ang,train
+Ses02F_impro01_F021,180.6986,190.9121,"Who--you always use your driver's license. I mean, you're not coming to the D.M.V. if you're not over sixteen and that's when you get your driver's license so you're never gonna need it anyway.",ang,test
+Ses02F_impro02_F001,18.3682,24.3889,"There's nothing I can do. I mean, the government you know--",sad,validation
+Ses02F_impro02_F002,30.6582,37.9405,"You're gonna have to. I mean, you're a great father. You can do it. I know you can.",sad,train
+Ses02F_impro02_F003,46.8146,49.4112,I don't think so.,sad,test
+Ses02F_impro02_F004,63.2468,75.4222,"Well, we can do the best we can and-and, with um, you know like wireless internet these days--I think that we could-- Talk every once in awhile.",sad,train
+Ses02F_impro02_F005,75.4413,78.5568,You could send me pictures.,sad,train
+Ses02F_impro02_F007,96.6544,108.6034,"and--I mean, my daughter--I don't want to put her in danger. You know? She has to stay.",sad,train
+Ses02F_impro02_F008,114.93,126.1305,"I know, but, she needs to be safe more. She needs to be around kids her age--own age. She needs to be able to play on the streets and--",sad,test
+Ses02F_impro02_M007,126.3408,139.8386,But she's--you're not gonna--you're not gonna be here for--for her first words. For her first steps. I mean--it's something that you're supposed to be here for that--,sad,train
+Ses02F_impro02_F009,139.4718,143.5239,You can just remember it for me.,sad,train
+Ses02F_impro02_F010,148.5507,156.3682,"Well, I need--I need you to be able to do this for me 'cause I can't do anything about it.",sad,train
+Ses02F_impro02_F011,158.5369,166.766,"I mean, it's just as hard for me, but--I know that we can do it, you know",sad,train
+Ses02F_impro02_F012,184.8857,191.174,I don't want you in danger. And I don't want her in danger.,sad,train
+Ses02F_impro02_F013,193.9264,207.04,I have no choice. There's nothing I can do.,sad,validation
+Ses02F_impro02_M012,208.8905,210.8151,All right.,sad,train
+Ses02F_impro03_M004,25.72,31.42,That is great. You look radiant. I should've guess.,hap,train
+Ses02F_impro03_M009,97.27,102.0738,"Yeah. I mean candles wouldn't stay--No, I didn't--I didn't know anything about it.",hap,train
+Ses02F_impro03_M010,102.8845,106.06,No. I'm just as happy as you are. This is--,hap,train
+Ses02F_impro03_M011,110.84,114.19,"So, I mean--it's good though.",hap,test
+Ses02F_impro03_F015,121.0516,127.2609,I know. So we're gonna take it--Like we're not gonna get married right away--'Cause we want to like have plenty of time to plan everything out,hap,train
+Ses02F_impro03_F016,127.3236,133.2123,"...and, um, my parents want to like be part of it and help out and everything--So we want to give it lots of time to like--",hap,train
+Ses02F_impro03_F017,133.6443,140.07,"Yeah, yeah, I called them. I called them And, of course, they were so excited 'cause they love him. Like they always have. Um--",hap,train
+Ses02F_impro03_F018,141.21,148.237,"So, yeah, I mean, it'll be good. We wanna like, uh, I think we're gonna have it in spring time, like early Spring--So it's no too hot yet. And um--",hap,train
+Ses02F_impro03_F019,149.08,156.2108,"I don't know. I mean, I kinda like the idea of having something outside, but--Like--is a- Yeah,",hap,train
+Ses02F_impro03_M017,164.59,166.04,Spring's nice though.,neu,train
+Ses02F_impro03_M019,179.88,188.4736,Okay. All right. So-[LAUGHTER]-quite a while. I mean--That's- That's good. I'm so happy for you. [LAUGHTER],hap,train
+Ses02F_impro03_F023,187.29,190.02,Thank you. Thank you so much.,hap,train
+Ses02F_impro03_M020,189.38,195.65,"Yeah, I'd love to be in that same situation some day, but, wow- so-",hap,train
+Ses02F_impro03_M022,207.5653,211.0588,"Oh, I approve. I-[LAUGHTER]-I more than approve.",hap,train
+Ses02F_impro03_M023,211.0776,220.74,"I mean, I'm surprised he didn't, ya know--go get a plane to fly over and shine--But candles on the beach, that's okay too I guess--",hap,train
+Ses02F_impro03_F026,220.38,222.24,"Yeah, it's pretty good.",hap,train
+Ses02F_impro03_F027,225.0487,228.4874,"Of course, of course--you'll be able to be a part of it. You can come help me pick my colors.",hap,train
+Ses02F_impro03_F029,240.4223,244.0151,She'll be like--flowers and the--,hap,train
+Ses02F_impro03_M026,244.0986,246.85,"It'll be good. Wow, that's great.",hap,train
+Ses02F_impro03_F030,246.65,250.5635,"Oh, thank you. [LAUGHTER]",hap,train
+Ses02F_impro04_M000,5.1392,9.5052,"So, uh, so how's it been going? I mean, you have any needs or anything?",neu,train
+Ses02F_impro04_M001,19.1897,25.48,"No. You can't think that way. I mean it's good--it's good that you're--that you're calling, you know. you can't",neu,train
+Ses02F_impro04_M004,52.9062,65.8663,"I know. I know. It's hard, but you just--you gotta keep going. I mean, you've been going at it for so long, you know. Something is definitely going to come up. I-I know it will, because you're a good worker--",neu,train
+Ses02F_impro04_M008,111.55,116.4043,"I know. It makes it harder. I mean it's definitely who you know in a lot of cases, but--",neu,train
+Ses02F_impro04_F009,132.9672,135.27,I feel so worthless.,sad,train
+Ses02F_impro04_M012,156.7354,174.3532,"Because I know you. You know, and maybe once you get to know some more people, like talking to them and everything, they'll get to know you too and they'll realize they should've hired you three years ago. You know? but And- and they'll finally come around and believe me--it'll--you gotta-",neu,train
+Ses02F_impro04_M017,245.97,248.0,"Well, you've gotta live.",neu,test
+Ses02F_impro04_F016,266.3,274.17,"I just wanna crawl in a hole, you know. Like it just makes you not wanna even open your eyes in the morning.",sad,train
+Ses02F_impro04_M019,271.69,277.0401,"Well, come on, come on. Thinking about it like this is definitely not gonna help either though.",neu,train
+Ses02F_impro05_F000,4.1392,7.7911,"Hi, um, excuse me, I believe that the airline lost my baggage.",neu,train
+Ses02F_impro05_M000,8.3,12.93,"Um, okay, it didn't--didn't come out on the carrousel--",neu,train
+Ses02F_impro05_M001,18.77,27.35,"Okay. Um, well, unfortunately yeah there was a some- some problems with the--",neu,train
+Ses02F_impro05_M002,29.42,35.95,"Uh, well some-some of the bags were--were lost on the way over here. uh-",neu,train
+Ses02F_impro05_M004,47.18,54.43,"Uh, But, we are willing to reimburse you for the bag and and for the contents--",neu,train
+Ses02F_impro05_M006,74.43,84.45,"Right. Uh We realize, you know, that that it's a bad situation, but I'm sorry, there's nothing that we can really do.",neu,train
+Ses02F_impro05_F006,82.29,90.68,"That's all, that's all, that's all you're going to do is just give me fifty dollars and say go have fun on your vacation without any of your stuff?",ang,test
+Ses02F_impro05_M009,118.1619,122.1723,"Yes, I know. I know-. It's It's frustrating. Unfortunately though-- um",neu,train
+Ses02F_impro05_F010,121.61,124.57,"Because you don't seem to care very much, you know.",ang,train
+Ses02F_impro05_M012,147.74,164.39,"You paid for the flight and then your bags were checked at--it's a service that the airline provides for us. So so, really, it's really the risk was taken and, I'm sorry, but there's really nothing else we can do. So do you want--do you want the reimbursement?",neu,train
+Ses02F_impro05_M013,176.48,180.5,"Well, there are-there are some shops here in- in the airport--",neu,train
+Ses02F_impro05_M014,182.6,189.65,"No, um, like I said you can file a claim and, uh, maybe get reimbursed for more-- you",neu,test
+Ses02F_impro05_M015,189.66,191.54,probably even talk to--,neu,train
+Ses02F_impro05_M016,205.22,217.07,"Right, that--that gets taken care of-- That gets taken care of. We get we do, you know, we investigate those and just make sure that um- they're not doing their own thing with them so--uh",neu,train
+Ses02F_impro05_M017,217.08,220.45,but Unfortunately sometimes is--,neu,train
+Ses02F_impro05_M018,224.51,226.28,"Well, that's--that's what I'm saying--",neu,train
+Ses02F_impro05_F019,241.32,247.38,It sounds like it's such a little like oh well no big deal whatever. It's a big deal to me.,ang,train
+Ses02F_impro05_M020,248.0522,265.9529,"All right, Miss, I-I know. I realize this. But Like I said, there are several people that are in your same situation, so, um, it's not--it's not totally uncommon and I'm actually gonna have to ask you to move so I can help the next person.",neu,train
+Ses02F_impro06_M000,5.7967,8.0783,"Hey, a what's up?",neu,train
+Ses02F_impro06_F000,10.31,15.4,"Um, Johnny died yesterday.",sad,test
+Ses02F_impro06_M001,15.7633,20.64,"Wow, that's horrible.",neu,validation
+Ses02F_impro06_M002,20.77,23.33,I'm sorry to hear about that.,neu,train
+Ses02F_impro06_F001,21.15,23.86,"We knew that it was coming, but--",sad,train
+Ses02F_impro06_M003,24.56,25.89,Yeah.,neu,train
+Ses02F_impro06_F002,25.52,32.26,"It seemed like he had a little bit longer. Like just last week, he was doing was so well.",sad,train
+Ses02F_impro06_M005,43.34,50.1,"It's good, you know. you know It hurts I know. I know what it's like to lose someone like that.",neu,train
+Ses02F_impro06_F004,52.1888,54.6,I just don't want him to be gone.,sad,train
+Ses02F_impro06_M007,59.12,68.5,"'Cause, you know, you've got all the times that you guys did spend together, you know and that's something good that you can look back on.",neu,train
+Ses02F_impro06_F007,107.03,113.82,"He was so young, you know. And all the stories he used to tell me about...",sad,train
+Ses02F_impro06_F008,114.3099,122.5338,...the way he wanted to live and he was gonna go to Africa and he was gonna--,sad,validation
+Ses02F_impro06_F009,130.67,132.78,Nobody's ever gonna forget him.,sad,train
+Ses02F_impro06_M013,138.68,153.21,"And you'll always have that and--you should feel, you know, happy for him that he got to do so much before--I mean, and even after he found out last year. I mean--",neu,train
+Ses02F_impro06_M015,164.25,172.35,"But It's okay because now, you know, you'll just go on with your life and--",neu,train
+Ses02F_impro06_F011,172.77,174.93,I'm gonna forget him.,sad,train
+Ses02F_impro06_F012,176.03,179.129,I won't be able to hear his voice or his--,sad,train
+Ses02F_impro06_M018,196.5253,210.6666,"That will be, It'll be--it'll be better that way. I mean Time will tell. Time heals, you know, and it's good. It's okay. I mean, it wasn't anybody's fault or anything like that so .",neu,train
+Ses02F_impro06_F014,218.2176,219.4604,Thanks.,sad,train
+Ses02F_impro07_M000,6.7677,9.5033,"So, how's it going?",neu,train
+Ses02F_impro07_M016,90.02,91.12,So...,neu,validation
+Ses02F_impro07_M018,108.7087,110.3028,That'll be awesome.,hap,train
+Ses02F_impro07_M019,110.3312,112.55,"I mean because you went to the campus before, right?",hap,test
+Ses02F_impro08_F000,5.072,9.3683,"Hi, my name is Shiloh, welcome to--Airline Six. Hi, how may I help you?",neu,train
+Ses02F_impro08_M003,25.2703,26.3762,Okay.,neu,test
+Ses02F_impro08_F004,34.4217,41.707,"Oh, yeah, absolutely. You know, and especially because you've been waiting so long and I know that, um, you've been having a difficult time.",neu,train
+Ses02F_impro08_F005,41.7208,49.8355,"I want to definitely give you our special package today, which um is usually only for valued customers who have a record of having previous,",neu,validation
+Ses02F_impro08_F007,56.3466,57.4525,Is that all right?,neu,train
+Ses02F_impro08_F008,57.5493,62.4568,"I can do that right now for you. No, absolutely. I can take care of you all the way through to the end.",neu,train
+Ses02F_impro08_F009,62.4706,66.7146,All I'm going to need is your credit card number but just give me one moment. So-,neu,train
+Ses02F_impro08_M006,62.443,64.3092,[BREATHING] that's good.,neu,train
+Ses02F_impro08_M008,107.6198,109.3063,Okay. So--,neu,train
+Ses02F_impro08_M009,109.8178,116.1077,"Well, you know, we wanted to--we wanted to go to Maui and--That was a",neu,train
+Ses02F_impro08_F015,114.0341,115.5271,Okay.,neu,train
+Ses02F_impro08_M012,125.5349,127.8996,All right. And can they like all get together?,neu,validation
+Ses02F_impro08_F020,146.3132,148.7047,Okay. Great. What time of the day would you like?,neu,validation
+Ses02F_impro08_M015,148.3729,154.4831,"Uh, well, yeah, I think we were just--you know, whenever best available, I guess. You know--",neu,train
+Ses02F_impro08_M016,171.9981,177.3618,"And, like, there's there's shuttles or something that I can get to the hotel.",neu,train
+Ses02F_impro08_F023,175.2053,185.2554,Absolutely. That actually goes in on the same package with our hotel. You just give me your address. We'll come and pick up a time that allows you to get to your flight with plenty of time to spare.,neu,train
+Ses02F_impro08_F024,185.2692,190.5223,And a there will also be a shuttle waiting for you to take you to the appropriate hotel.,neu,validation
+Ses02F_impro08_M018,199.107,202.0927,All right. So we're confirmed then or do you--All right.,neu,test
+Ses02F_impro08_F026,200.4894,205.6457,Absolutely. Thank you so much for calling and we hope that you will come to us again.,neu,train
+Ses02F_impro08_M019,204.6773,205.9775,Okay.,neu,train
+Ses02F_script01_1_F004,33.2025,35.1973,Did you talk to him?,sad,validation
+Ses02F_script01_1_F005,39.1,41.86,He cried hard?,sad,test
+Ses02F_script01_1_F006,44.88,47.19,What was he doing out here at that hour?,sad,train
+Ses02F_script01_1_M011,86.35,97.8,Why shouldn't he dream of him and walk the nights waiting for him? Do we contradict him? Do we say straight out that we don't have any hope anymore? That we haven't had hope for years now?,ang,train
+Ses02F_script01_1_M013,102.09,107.18,"For God sakes, it's been three years. Nobody comes back after three years. It's insane.",ang,validation
+Ses02F_script01_1_F017,134.54,138.67,"I've got an idea, but what's the story?",sad,train
+Ses02F_script01_1_F019,147.2,150.78,What do you want me to do? You're old enough to know your own mind.,ang,test
+Ses02F_script01_1_M021,155.79,158.58,"Well, then it isn't just my business--",ang,train
+Ses02F_script01_1_M023,172.74,174.76,She's not Larry's girl.,ang,train
+Ses02F_script01_1_M025,201.98,203.36,To hell with that.,ang,train
+Ses02F_script01_1_F027,208.33,212.7334,"Well, how do you know she'll marry you? Maybe she feels the same way your father does.",neu,test
+Ses02F_script01_1_M027,212.7,225.6616,"Well, if she does, then that's the end of it. But from her letters, I think she's forgotten him. I'll find out. And then we'll thrash it out with Dad, right? Mom, don't avoid me.",sad,train
+Ses02F_script01_1_F036,289.08,290.77,Are you crazy?,ang,train
+Ses02F_script01_1_M036,290.27,293.54,I've been a good son too long. A good sucker. I'm through with it.,ang,train
+Ses02F_script01_1_F037,293.36,295.88,What about the business? What the hell is this?,ang,test
+Ses02F_script01_1_M037,295.54,298.99,The business? The business doesn't inspire me.,ang,train
+Ses02F_script01_1_F038,298.41,300.58,Must you be inspired?,ang,train
+Ses02F_script01_1_M038,299.37,306.84,"Yes. I like it an hour a day. If I'm gonna grub for my money all day long, at least in the evening I want it beautiful.",ang,test
+Ses02F_script01_1_F040,322.49,325.8319,"Well, you don't want to think like that.",ang,train
+Ses02F_script01_1_M044,350.05,353.43,"No, you don't. I'm a pretty tough guy.",neu,validation
+Ses02F_script01_1_F044,353.52,356.2,I can see that.,sad,test
+Ses02F_script01_2_F005,32.31,34.46,It's got that all about it.,ang,train
+Ses02F_script01_2_F012,84.76,90.0,"Because if he's not coming back, I'll kill myself. I mean, laugh--laugh at me, but...",ang,train
+Ses02F_script01_2_F013,90.03,97.25,But why did that happen the very night she came here? She sleeps in his room and his memorial breaks to pieces. Just look. Look at it.,ang,train
+Ses02F_script01_2_M016,114.0,116.5,What does that mean? Me above all?,ang,train
+Ses02F_script01_2_M017,116.61,118.93,Look at you. Look at you shaking.,ang,validation
+Ses02F_script01_2_M018,119.43,123.89,What have I got to hide? What the hell is the matter with you Kate?,ang,validation
+Ses02F_script01_3_F012,115.79,118.542,I almost got married two years ago.,hap,train
+Ses02F_script01_3_F013,121.03,123.45,You started to write me and--,hap,train
+Ses02F_script01_3_F014,124.82,126.7,Every day since.,hap,train
+Ses02F_script01_3_F016,146.24,154.84,I will never forgive you. Why did you wait all these years? All I did was sit and wonder if I was crazy for thinking of you.,hap,train
+Ses02F_script01_3_M020,173.5779,176.7,No. Nothing like that.,sad,train
+Ses02F_script01_3_M021,186.58,191.15,"Yeah, I suppose I have been. But it's going from me.",sad,train
+Ses02F_script01_3_F021,191.13,193.3241,You've gotta tell me.,sad,validation
+Ses02F_script01_3_M022,193.87,196.2,I don't know how to start.,sad,train
+Ses02F_script01_3_F022,196.69,198.64,It wouldn't work this way.,sad,train
+Ses02F_script01_3_M023,200.09,207.24,"It's all mixed up with so many other things. You remember overseas, I was in command of a company?",sad,train
+Ses02F_script01_3_F023,206.99,208.41,"Yeah, sure.",sad,train
+Ses02F_script01_3_F024,211.6,213.3,How many?,sad,test
+Ses02F_script01_3_M025,214.07,215.64,Just about all.,sad,test
+Ses02F_script01_3_M026,218.09,223.28,It takes some time for a guy to toss that off. 'Cause they weren't just men.,sad,validation
+Ses02F_script01_3_M027,224.16,238.3,"For instance, one time, it had been raining several days and this kid came to me and gave me his last pair of dry socks. I put them in pocket. It's only a little thing, but that's the kind of guys I had.",sad,train
+Ses02F_script01_3_M031,274.75,290.06,Then I came back and it was incredible. There was no meaning in it here. The whole thing to them seemed like sort of a bus accident. I went to work with Dad and that rat race again.,sad,train
+Ses02F_script01_3_M032,290.35,307.67,"And I felt what you said, ashamed somehow 'cause nobody was changed at all. It seemed to make suckers out of a lot of guys. I felt wrong to be alive to open the new bank book, drive the new car, see the new refrigerator.",sad,train
+Ses02F_script01_3_M033,308.71,320.45,"I mean, you can take those things out of a war, but when you drive that car, you've gotta know that it came out of the love a man can have for a man. You've gotta be a little better because of it.",sad,validation
+Ses02F_script01_3_M034,320.83,330.73,Because otherwise all you have is really loot and there's blood on it. And I didn't want to take any of it. And I guess that included you.,sad,train
+Ses02F_script01_3_F026,331.43,333.69,You still feel that way?,sad,train
+Ses02F_script01_3_F029,357.69,360.06,What'll I do with a fortune?,hap,train
+Ses02F_script02_1_M009,49.01,50.5,"Oh, well sure.",neu,train
+Ses02F_script02_1_M010,55.37,62.4,"Right, of course. Our flashlight. Mine and yours. I mean, me flashlight is su flashlight naturally.",neu,train
+Ses02F_script02_1_M020,115.1,116.6,That's my point too.,neu,test
+Ses02F_script02_1_M021,117.83,124.59,No. No. That's not my point. The point is there's no point in coming down if we just leave. Don't you want to see it?,neu,validation
+Ses02F_script02_1_M031,190.28,194.78,"I don't get it. The first time we came here, you said it was the best night of your life.",neu,train
+Ses02F_script02_1_F021,287.68,289.17,About what?,neu,train
+Ses02F_script02_2_M001,7.76,9.07,What I was saying.,neu,train
+Ses02F_script02_2_M005,38.73,45.56,"Carla, can I ask you something? Don't take this wrong, but are you having your period?",neu,test
+Ses02F_script02_2_F005,45.21,52.65,"God damn it, Augie, don't ask me that. I hate it when you ask me that. You always ask me that. It's insulting.",ang,train
+Ses02F_script02_2_F006,53.2,57.7,We just have different ideas of what this evening is supposed to look like.,ang,train
+Ses02F_script02_2_M010,79.4,81.13,"Well, we'll see them this year.",neu,train
+Ses02F_script02_2_F011,86.16,99.71,"I mean, I feel like my whole life is gonna be spent standing on the beach with my eyes wide open and my hands clasped expectantly waiting for the fish to show up. And the fish won't show up.",ang,train
+Ses02F_script02_2_M013,111.46,114.75,It's just fish. Nothing to get traumatized about.,neu,train
+Ses02F_script02_2_F015,143.69,149.72,"Do you remember the first time we came to see it? It was about four years ago, right after we got married.",sad,train
+Ses02F_script02_2_F016,149.74,159.76,"I thought I was pregnant, you had a bottle of champagne, but no glasses. You asked me to dance, so we kicked off our shoes and you popped the cork.",sad,train
+Ses02F_script02_2_F017,159.7833,169.32,"And while we were dancing, you said the softest, most intimate things to me right into my ear so that I could feel them as much as hear them.",sad,train
+Ses02F_script02_2_F018,169.34,178.17,"And I remember thinking, this is it. You know, at last--at last I am as happy as I am supposed to be.",sad,train
+Ses02F_script02_2_M018,177.56,179.38,Wait a minute. I've got it.,neu,train
+Ses02F_script02_2_F019,178.78,183.33,"Just dancing barefoot in the sand, drinking champagne out of the bottle.",sad,train
+Ses02F_script02_2_M019,183.18,192.22,"It was in the car, right? Driving past the Knickerbocker Liquor Locker, you said, ""let's get some champagne,"" and I said, ""time's a wasting"" or something like that, right?",neu,train
+Ses02F_script02_2_F020,196.73,202.01,I'd rather not remember some things. I would rather not hope for some things.,sad,train
+Ses02F_script02_2_F021,206.41,207.55,No.,sad,train
+Ses02F_script02_2_M022,207.51,209.49,You want me to go get some champagne?,neu,validation
+Ses02F_script02_2_F022,208.74,209.72,No.,sad,test
+Ses02F_script02_2_M023,209.57,211.32,Take off our shoes?,neu,train
+Ses02F_script02_2_M029,228.2,238.96,"Well, welcome to the human race. Do you think this is what I had in mind when I proposed? That four years down the road, we'd be at the beach yelling at each other over fish?",ang,train
+Ses02F_script02_2_M031,250.89,266.43,"No, Carla, I'm just like you. I thought it was gonna be all peaches and roses and sand in our toes and wind in our hair and the fish will always come and the bills will pay themselves and we'll have three fat rosy kids and ha, ha, baby, the joke's on us",sad,train
+Ses02F_script02_2_M034,280.13,281.22,Right.,neu,train
+Ses02F_script02_2_F031,281.5765,286.6,Well. This isn't anything like I thought anything would be like.,sad,train
+Ses02F_script02_2_M035,286.33,288.29,"I know, me neither.",sad,train
+Ses02F_script02_2_M036,302.93,305.06,I'm doing the best I can.,sad,train
+Ses02F_script02_2_F033,305.38,308.72,"I know that, Augie. Really, I do.",sad,train
+Ses02F_script02_2_M037,325.06,327.93,Maybe if you were with somebody else too.,sad,test
+Ses02F_script02_2_F035,327.15,328.77,I didn't say that.,sad,train
+Ses02F_script02_2_M038,328.38,333.71,"No, I know. But still. I know I don't make you happy.",sad,train
+Ses02F_script02_2_F038,342.08,350.2,You're the one who probably wishes you were with someone else. Someone who--you'd rather enjoy yourself and didn't take everything so hard.,sad,validation
+Ses02F_script02_2_M041,364.81,370.56,"I don't know. It seemed like a pretty good spot to me. I mean, look at the view you have of the moon from here.",hap,train
+Ses02F_script02_2_M042,378.28,380.21,"Well, look what we have here.",hap,train
+Ses02F_script02_2_F041,379.87,382.76,"Augie, you brought refreshments.",hap,train
+Ses02F_script02_2_M043,382.43,384.08,It's not champagne.,hap,train
+Ses02F_script02_2_F042,383.7,387.6,"Well, then we don't need glasses.",hap,train
+Ses02F_script02_2_F043,393.41,402.26,No. I think you might be right. Maybe this is the spot after all.,hap,train
+Ses02F_script02_2_F044,405.93,408.26,"Augie, I'm sorry.",sad,train
+Ses02F_script02_2_M045,407.08,411.69,Shh. If we're very quiet the fish might come.,hap,train
+Ses02F_script02_2_F045,412.15,413.92,Or not.,hap,train
+Ses02F_script02_2_M046,414.05,415.64,Or not.,hap,train
+Ses02F_script03_1_M004,20.65,22.18,I don't care then.,neu,train
+Ses02F_script03_1_M005,23.91,28.8,Hello? Hello? What? Wrong number.,neu,validation
+Ses02F_script03_1_F006,34.49,36.76,Behave exquisitely.,hap,train
+Ses02F_script03_1_M007,36.53,38.4,With the most perfect poise?,neu,test
+Ses02F_script03_1_F007,37.7,41.55,"Oh, of course. I shall probably do a court curtsy.",hap,train
+Ses02F_script03_1_F008,45.23,48.88,What's so horrible is that one can't stay happy.,hap,train
+Ses02F_script03_1_F009,49.65,53.32,It's true. The whole business is a very poor joke.,hap,train
+Ses02F_script03_1_M010,53.18,56.93,"Meaning that sacred and beautiful thing, love?",neu,train
+Ses02F_script03_1_F010,56.38,58.73,"Yes, meaning just that.",hap,train
+Ses02F_script03_1_M012,68.0,70.94,"You mustn't be serious, my dear one. That's just what they want.",neu,train
+Ses02F_script03_1_F013,81.78,84.79,"If I laugh at everything, then I must laugh at us too.",neu,train
+Ses02F_script03_1_M016,92.01,93.37,Who knows.,neu,train
+Ses02F_script03_1_F015,93.31,96.54,"Well, shall we always want to bicker and fight?",neu,train
+Ses02F_script03_1_M017,96.23,99.74,"No, that desire will fade. Along with our passion.",neu,test
+Ses02F_script03_1_F016,99.04,101.35,"Oh, dear, shall we like that?",neu,validation
+Ses02F_script03_1_M018,101.1,103.33,Depends on how well we've played.,neu,validation
+Ses02F_script03_1_F019,117.52,119.97,"Darling, I believe you're talking nonsense.",hap,train
+Ses02F_script03_1_M021,119.48,122.22,So is everyone else in the long run.,neu,train
+Ses02F_script03_1_F020,140.2,142.43,"Elliott, worms don't pop.",hap,train
+Ses02F_script03_1_M024,142.82,153.49,"I don't care what you do. See, you could paint yourself green and dance naked in the Place Vendome and rush off madly with all the men in the world and I shan't say a word. As long as you love me best.",neu,train
+Ses02F_script03_1_F021,152.95,160.57,"Oh, thank you, dear. The same applies to you except that if I catch so much as looking at another woman, I'll kill you.",hap,train
+Ses02F_script03_1_F022,162.7044,164.74,Which particular one?,hap,train
+Ses02F_script03_1_F023,168.43,173.2,Charles. That was his name. Charles. He did wriggle so beautifully.,hap,train
+Ses02F_script03_1_F024,174.19,179.85,"Yes, I know you did. You threw it out of the window into the Grand Canal. I don't think I'll ever forgive you for that.",hap,train
+Ses02F_script03_1_F025,181.02,183.93,It went in intermittently for days.,hap,validation
+Ses02F_script03_1_F026,187.4,191.65,It burned my comb too and all the towels in the bathroom.,hap,train
+Ses02F_script03_1_M031,195.45,197.67,I didn't hit you very hard.,neu,train
+Ses02F_script03_1_F028,197.09,204.39,"The manager came in and found us rolling around on the floor, biting and scratching like panthers.",hap,train
+Ses02F_script03_1_M034,212.42,217.2,"As a matter of fact, the real cause of that row was Peter Burden.",neu,train
+Ses02F_script03_2_M001,9.58,12.62,I knew nothing of the sort. You took presents from him.,neu,train
+Ses02F_script03_2_M006,36.66,37.83,What of it?,ang,train
+Ses02F_script03_2_M007,41.85,43.94,"Well, what about me?",ang,test
+Ses02F_script03_2_M009,52.75,56.9,"Me, too. Bored stiff. You want some brandy?",neu,train
+Ses02F_script03_2_F011,66.65,70.77,Just seems so silly to go on and on and on with such a thing.,neu,train
+Ses02F_script03_2_F012,75.54,78.33,"Well, it's become a habit with you.",neu,test
+Ses02F_script03_2_M013,77.56,82.4,"You needn't be so grand, just because you don't happen to want any yourself at the moment.",ang,train
+Ses02F_script03_2_F013,81.28,83.36,Don't be so stupid.,ang,train
+Ses02F_script03_2_F014,83.41,84.55,What?,ang,train
+Ses02F_script03_2_F018,105.61,107.71,"Oh, be quiet.",ang,train
+Ses02F_script03_2_F020,115.52,117.56,"Adders don't snap, they sting.",ang,train
+Ses02F_script03_2_F025,145.08,146.94,You're quite insufferable,ang,train
+Ses02F_script03_2_M027,148.25,150.56,I'm not in the least drunk.,ang,validation
+Ses02F_script03_2_F029,167.45,169.29,Shut up.,ang,train
+Ses02F_script03_2_M030,168.63,172.85,"We could get a good debate going about this, don't you think? Intemperate tots.",ang,train
+Ses02F_script03_2_F031,181.62,183.11,Why?,ang,train
+Ses02F_script03_2_F034,195.94,198.21,"Turn it on again, please.",ang,test
+Ses02F_script03_2_M036,197.87,199.98,I'll do no such thing.,ang,train
+Ses02F_script03_2_F035,199.58,204.21,"Very well, if you insist on being boorish and idiotic.",ang,train
+Ses02F_script03_2_M037,203.77,206.48,Turn it off. It's driving me mad.,ang,train
+Ses02F_script03_2_F036,205.69,209.75,You are far too temperamental. Try to control yourself.,ang,train
+Ses02F_script03_2_M038,208.96,210.21,Turn it off.,ang,train
+Ses02F_script03_2_F037,209.89,212.3,Stop it. Go away. I hate you.,ang,train
+Ses02F_script03_2_M039,211.36,213.55,"Amanda, listen. listen",ang,validation
+Ses02F_script03_2_F038,212.34,217.87,"Listen? Listen, indeed. I am sick and tired of listening to you, damn sadistic bully.",ang,validation
+Ses02F_script03_2_F039,218.49,224.82,"I hate you. Stop it. Stop it. I hate you, do you hear? You're conceited and overbearing and utterly impossible.",ang,train
+Ses02F_script03_2_M041,224.2,231.03,"You're a vile, tempered, loose living, wicked little beast and I hope to never see you again as long as I live.",ang,train
+Ses02F_script03_2_F040,230.08,234.22,This is the end. Finally and forever. Do you hear me? The end.,ang,train
+Ses02F_script03_2_M042,233.63,235.62,You're not going like this.,ang,train
+Ses02F_script03_2_F041,234.48,236.44,"Oh Yes, I am.",ang,train
+Ses02F_script03_2_M043,235.87,237.36,You're not.,ang,train
+Ses02F_script03_2_F042,236.48,241.06,I am. Let go of me. You're a cruel fiend and I hate and loathe you.,ang,train
+Ses02F_script03_2_M044,239.22,241.15,Shut up. Shut up.,ang,train
+Ses02F_script03_2_M045,241.79,243.58,I wouldn't-- I wouldn't marry--,ang,train
+Ses02F_script03_2_M046,243.59,246.44,I wouldn't marry you if you came in crawling on your knees,ang,train
+Ses02F_script03_2_F043,241.08,251.95,Thank God I realized what you are-- I'd never marry you again ever in my life. You're a cruel fiend and I hate you. You're a beast. You're a beast--I hate you. Stop it. Stop it.,ang,train
+Ses02F_script03_2_M047,246.47,250.62,You're a evil vampire and I hope to God I never see you again as long as I live.,ang,train
+Ses02M_impro01_F002,11.6114,14.6855,do you have two forms of ID with you?,neu,test
+Ses02M_impro01_F003,17.819,24.7376,"I actually need two forms of ID. I need either a passport or a birth certificate, or social security card. I'm sorry.",neu,test
+Ses02M_impro01_F005,30.0939,36.9427,I- I can take your driver's license but I need another form of ID in order to process this paper work.,neu,train
+Ses02M_impro01_F006,38.8667,44.0823,"Um, that you would need to go home and get another form of ID and come back.",neu,train
+Ses02M_impro01_M007,44.2341,52.43,"What? I- You telling me I waited in that huge line to go and sit down and get my number called, like after",ang,train
+Ses02M_impro01_M008,52.44,54.53,three hours and,ang,train
+Ses02M_impro01_M009,57.3791,64.1421,Shouldn't they have like told us about that? I mean why - why would they make me go and wait three hours if I have got to go and do it again?,ang,train
+Ses02M_impro01_M010,66.9831,73.6261,"It's standard? I mean I don't work at the D.M.V. how am I supposed to know that, like, I stand in line, I get my",ang,train
+Ses02M_impro01_M011,74.2423,76.2871,"I filled out the application right, didn't I?",ang,train
+Ses02M_impro01_F015,98.7147,100.1295,"I'm sorry, sir.",neu,train
+Ses02M_impro01_F016,104.7414,106.0901,there is nothing I can do.,neu,train
+Ses02M_impro01_M018,119.1904,126.0898,You- shouldn't you have like a sign or something maybe like up on the counter when you get the applica- maybe on the application,ang,validation
+Ses02M_impro01_M019,129.4304,137.7264,"What web- I didn't go to a website - why would I need to - it's the D.M.V.. You come to the D.M.V., you wait in line for three hours, and then you go home.",ang,train
+Ses02M_impro02_F002,23.579,26.4151,I don't want to be a single mom.,sad,train
+Ses02M_impro02_M001,26.7598,31.4253,"You won't be. I'll be back; I'll be back before you know it. All right, and",sad,train
+Ses02M_impro02_F003,31.3058,32.6401,but,sad,train
+Ses02M_impro02_F004,33.4566,37.3201,It's dangerous; I mean how can you make sure that you'll,sad,train
+Ses02M_impro02_F006,56.6174,58.0712,I hope so.,sad,train
+Ses02M_impro02_F007,59.0868,61.0584,It's going to be really rough.,sad,train
+Ses02M_impro02_M008,67.8916,74.1377,"I hope so, because I'm not going to be able to survive without all that. I don't know what I'm going to do.",sad,train
+Ses02M_impro02_F009,84.1439,88.959,"Well, just promise me that you going to be safe.",sad,train
+Ses02M_impro02_M013,120.2518,128.8678,there's people that thought it was the right thing to do so now we have to- we have to do what we have to do for our country,sad,train
+Ses02M_impro02_F013,155.7643,160.4854,"Our baby needs a dad; you can't leave. Okay, you can't disappear.",sad,train
+Ses02M_impro02_M017,159.4932,164.3,"Our baby has a dad, alright. Daddy is going to be back soon.",sad,test
+Ses02M_impro02_M018,165.83,178.4193,"I want you to, you know, take lots of video; pictures and I can see you when I get back or while I'm there. I'm going to miss you.",sad,train
+Ses02M_impro02_F014,178.7739,181.4226,I'll miss you too.,sad,train
+Ses02M_impro03_M010,65.1724,72.73,"Oh, well, it was -- you know, we were at this- at this concert and yeah",hap,train
+Ses02M_impro03_M011,72.74,76.14,so I-I talked to some of the crew before hand and-,hap,test
+Ses02M_impro03_M012,76.8059,77.7009,I-I did.,hap,test
+Ses02M_impro03_M014,86.83,88.3,"I know, so",hap,validation
+Ses02M_impro03_M015,88.46,90.1494,I got to freak her out.,hap,train
+Ses02M_impro03_M017,96.6583,100.279,"Yea, that way she was guaranteed that she could not say no.",hap,train
+Ses02M_impro03_M021,115.1625,119.6025,"Oh yes, they - they you know they love her and so I mean...",hap,test
+Ses02M_impro03_M027,164.7903,172.9558,"Oh, it will, obviously you know. But I know it's something - I don't know, you never really think about it happening, like before hand.",hap,train
+Ses02M_impro03_M028,174.7051,176.434,"Sure. Oh, yes.",hap,validation
+Ses02M_impro03_M031,190.9368,191.8928,Hah.,hap,train
+Ses02M_impro04_F000,5.1157,6.9185,So how you feeling?,neu,test
+Ses02M_impro04_F001,13.1185,16.2387,"You've been doing a lot of work for it, right?",neu,train
+Ses02M_impro04_F003,28.2,31.74,"you know you shouldn't give yourself a hard time for that, it's the best you can.",neu,train
+Ses02M_impro04_F007,85.5106,89.9409,You are persistence. I mean that's important. that's,neu,train
+Ses02M_impro04_F008,96.7713,103.3594,"Well, you're talented so keep that in mind, you know, you shouldn't give yourself too hard of a time.",neu,train
+Ses02M_impro04_F009,117.76,119.58,I'm sorry.,sad,train
+Ses02M_impro04_M014,117.9015,123.4099,"I don't know, it's just not, I don't know - I don't know what to do really, you know, I'm just thinking",sad,train
+Ses02M_impro04_F010,139.5605,145.0028,"That's- I mean. There are more factors then just whether you're good or not, you know what I mean like",neu,train
+Ses02M_impro04_M019,167.71,170.99,this doesn't happen to a normal person.,ang,train
+Ses02M_impro04_F016,196.1824,201.1541,"Maybe you should take a little break from it, but I don't think you should stop.",neu,train
+Ses02M_impro04_M022,214.4085,217.5372,Right. Thanks for talking to me.,sad,train
+Ses02M_impro05_M002,11.48,16.5042,"Yes, yes, it's gone around like you know twenty times. It's been about a half hour.",neu,test
+Ses02M_impro05_F003,16.49,27.9028,"Actually I'm looking here at the information, the flight that you were on we had some trouble with some of the baggage, it looks like a few peoples' bags didn't make it through. Um, so-",neu,train
+Ses02M_impro05_M003,27.2271,31.5242,Okay. So what-what do I have to get you know,neu,train
+Ses02M_impro05_F005,38.1619,46.2674,"Well, sometimes it's just late baggage or misplaced baggage and it comes out but it seems to be here and just I'm reading off of this that",neu,train
+Ses02M_impro05_F006,46.2872,53.6683,Uh- it didn't make it into the second plane so it looks like there - they don't actually know what happened to it.,neu,train
+Ses02M_impro05_F007,56.6475,69.87,"Um, well, sometimes there is just difficulties with loading on to the plane. Uh- There can be a theft or uh- some sort of you know mishap with a cart or something.",neu,train
+Ses02M_impro05_F012,100.2715,104.9224,"Sometimes it gets stolen, sometimes it gets misplaced on another plane and",neu,train
+Ses02M_impro05_F013,105.3994,111.5716,"they - they, it gets shipped to somewhere else and then it's stuck somewhere and then we have no way of tracking that.",neu,train
+Ses02M_impro05_F014,111.7101,113.5505,So we'll- what we'll do,neu,train
+Ses02M_impro05_M013,112.1652,119.18,"But we have the tags on. I mean like it wouldn't you know, if it got stuck somewhere it's like well this is nobodies bag I mean maybe you know look on the tag and",ang,train
+Ses02M_impro05_M016,126.7989,133.6168,"Theft? Don't you know like all these people that are work - you keep like an eye on them, how can they get away with-",ang,train
+Ses02M_impro05_F017,133.4189,141.79,"We have very tight security but we -uh- there are times when we just can't uh make sure there aren't absolutely no human error, you know",neu,train
+Ses02M_impro05_M018,148.04,153.3268,you don't realize the stuff that I've got in that - I really need to get the suitcase okay,ang,train
+Ses02M_impro05_F023,180.8041,187.9777,"Well, it's- it's just sort of help with the fact uh that you lost some of your possessions and we rather do that than-",neu,train
+Ses02M_impro05_M025,207.03,211.9163,The a- what? Talking about a core they can't afford it? I mean-,ang,test
+Ses02M_impro05_F026,217.8694,226.37,"we can give you fifty dollar to sort of make up for it, to compensate, and we can definitely let you know if it shows up but likely, more than likely-",neu,train
+Ses02M_impro05_M026,225.36,230.89,I mean you're not helping me here. What do I have to do here? Do I need to sue the airline company is that what I should do,ang,train
+Ses02M_impro06_M000,11.52,13.4781,Kathy died last night.,sad,train
+Ses02M_impro06_M001,18.65,23.1,"yeah, I mean, you know, it was a -",sad,validation
+Ses02M_impro06_M003,41.14,49.11,"I mean at least she was home, she wasn't in the hospital anymore,",sad,train
+Ses02M_impro06_F003,49.85,53.681,"Oh, man. I'm so sorry.",sad,train
+Ses02M_impro06_M004,51.6,68.52,"She was with- yeah She was with Gary, and he said that she was just sitting there and went to sleep, closed her eyes, and that was it.",sad,train
+Ses02M_impro06_M005,75.87,85.22,"Yes. I mean, it's not as rough on me as it is on him but",sad,train
+Ses02M_impro06_F005,98.49,100.03,Yeah.,sad,test
+Ses02M_impro06_F006,107.96,110.15,Totally.,sad,validation
+Ses02M_impro06_M008,110.6,117.5764,"It's just that- I don't know, it's sort it's sort- of a weird thing you know",sad,train
+Ses02M_impro06_F007,117.4822,118.2464,Yeah,sad,train
+Ses02M_impro06_F008,135.498,140.6869,"Yes. Well, at least you have a lot of good memories.",sad,train
+Ses02M_impro06_F009,145.7747,148.7923,"She really cared about you, you know.",sad,validation
+Ses02M_impro06_M012,156.17,159.05,so loving everybody you know.,sad,train
+Ses02M_impro06_F010,156.5503,158.1019,And she was,sad,train
+Ses02M_impro06_M014,168.14,172.8868,We were all going take a trip to Europe you know.,sad,validation
+Ses02M_impro06_F013,186.3551,188.9257,Are you going to be okay?,sad,train
+Ses02M_impro06_M017,199.2311,214.1921,"just makes it that much harder to deal 'cause as much as you want to, you know, make her better, see her not in any pain, it's like, just I don't know, just has a mind of its own.",sad,train
+Ses02M_impro06_M018,215.2678,217.8788,Then she's gone.,sad,train
+Ses02M_impro06_F014,220.421,223.2463,"It's going to be okay, I promise.",sad,train
+Ses02M_impro06_M019,223.9257,233.6212,"Well, you know I appreciate you coming over and talking to me, I mean it definitely helps",sad,train
+Ses02M_impro06_F015,233.1349,235.1265,Sure,sad,train
+Ses02M_impro06_M020,234.8486,236.6781,to talk to somebody but,sad,train
+Ses02M_impro06_F016,236.4697,238.2529,you shouldn't be alone,sad,train
+Ses02M_impro06_F017,243.9962,246.0341,Yes.,sad,test
+Ses02M_impro06_M022,246.265,248.3433,Ah.,sad,test
+Ses02M_impro06_M023,249.1373,252.0553,Thank you.,sad,train
+Ses02M_impro06_F018,252.1016,254.1164,Yes.,sad,train
+Ses02M_impro07_M009,52.09,58.0,it was you know I wasn't too sure I mean you know it was kind of last minute for like the application,hap,train
+Ses02M_impro07_M010,58.01,59.45,and everything like but,hap,train
+Ses02M_impro07_M011,59.46,61.22,"it was good, yeah. I mean-",hap,train
+Ses02M_impro07_F014,77.75,81.2389,No but that's an awesome school. That's so cool.,hap,train
+Ses02M_impro07_F015,85.2147,86.8093,"Oh, totally totally.",hap,train
+Ses02M_impro07_F016,87.107,89.15,you get to like be a part of that.,hap,train
+Ses02M_impro07_F017,89.16,93.4853,"Like you get to be a part of that. Like the, like the- Like a cult.",hap,test
+Ses02M_impro07_F018,93.4953,101.52,"[LAUGHTER] like a- like a- [LAUGHTER] No, but I mean like everywhere you go people know who you are.",hap,train
+Ses02M_impro07_F019,105.01,107.0074,So you know what you are going to do there?,hap,validation
+Ses02M_impro07_M023,106.86,114.29,"What's that? ahh Well, you know I'm I'm thinking um I'm leaning towards like communications",hap,train
+Ses02M_impro07_M024,114.3,116.82,"I-I don't know. Kind of a broad,",hap,train
+Ses02M_impro07_F020,114.23,117.6,"Okay. They have a lot of good schools, right?",hap,train
+Ses02M_impro07_M025,116.83,123.97,"yeah, I mean a lot-a lot of good stuff oh, yeah, I mean it's- it's just a really good school; so really, whatever I pick I can't go wrong. I mean I'm just",hap,train
+Ses02M_impro07_M026,123.98,133.33,"I'm looking forward to getting there. I mean, God, the campus is cool, you know it's like all just very confined I mean just you know it's a college campus you know it's like",hap,train
+Ses02M_impro07_F021,132.2869,133.924,"Yes, it's intimate.",hap,train
+Ses02M_impro07_F024,148.79,150.85,I will do the best I can.,hap,train
+Ses02M_impro07_M030,156.41,158.27,"Oh, alright.",hap,train
+Ses02M_impro07_F028,166.01,170.8121,"and we'll explore and you going to have such a good time, you're going to fit in so well, it's going to be awesome",hap,train
+Ses02M_impro07_F029,171.38,175.79,So Congratulations. That's awesome.,hap,train
+Ses02M_impro08_M003,37.923,48.3927,"I- I'll give you a little hint, next time if it asks if you're on a rotary phone you know, just stay on the line instead of - instead of hitting one or two to say if you're like on a touch tone",neu,train
+Ses02M_impro08_F006,61.0932,63.8674,"Sorry. Okay. Um-, yes",neu,train
+Ses02M_impro08_F008,69.5168,73.9495,"Uh, I don't know where it came from and it's actually quite large, and I don't have the money for it so",neu,validation
+Ses02M_impro08_M009,94.4263,100.1059,"All right. Well, you know that's, that's what we have all of our protection plans for and everything like that so I mean it's",neu,train
+Ses02M_impro08_M011,103.2505,112.7768,"Yes, we'll get- we'll get rid of it right now. I mean just we're going to have to have you, um, submit something you know, we're going to have to have you mail something in for us, okay.",neu,validation
+Ses02M_impro08_M012,112.8186,118.1843,"So- So you can um find that application. You have the Internet, you can go to our website.",neu,train
+Ses02M_impro08_M014,121.6487,124.0197,"We could mail it to you as well, but-",neu,validation
+Ses02M_impro08_M019,144.3452,148.4281,"Uh, I mean have you been shopping around on the Internet and stuff? I mean that you gave-",neu,train
+Ses02M_impro08_F019,147.8773,151.8393,I did buy one thing on ebay I don't know that might-,neu,train
+Ses02M_impro08_M020,149.9623,157.3799,"Uh-ha, I mean usually sites are pretty well protected but sometimes I mean information gets out, so",neu,train
+Ses02M_impro08_M021,157.3926,164.5089,so it is a little a little hard in that situation if you want -- you know you can -um- we can- we can issue another credit card.,neu,train
+Ses02M_impro08_F023,187.3229,188.6099,Great.,hap,train
+Ses02M_impro08_M027,187.7365,191.1325,And you know just I mean be careful in the future if um,neu,train
+Ses02M_impro08_F024,190.8923,191.894,Yeah.,hap,test
+Ses02M_impro08_M029,197.302,208.1746,"and never you know, give it to anyone out, never even give out your number to any like unreliable company that you haven't heard of or anything like that, all right? Because, um, we want to- we definitely want to help you out, but-",neu,train
+Ses02M_impro08_F025,199.9925,201.4292,"Right, right.",neu,train
+Ses02M_impro08_M030,208.2,212.2955,you know it gets- it gets difficult you know so Alright.,neu,train
+Ses02M_impro08_F028,210.1273,213.703,Well thank you so much. You've been very helpful. I really appreciate it.,hap,test
+Ses02M_impro08_F030,216.1796,218.7792,Thank you very much bye.,hap,train
+Ses02M_script01_1_M003,28.17,33.97,I don't know. When it cracked he ran into the house and cried in the kitchen.,sad,train
+Ses02M_script01_1_M004,34.95,38.97,No. I figured it was best to leave him alone.,sad,train
+Ses02M_script01_1_M005,41.66,44.62,I could hear him right through the floor in my room.,sad,validation
+Ses02M_script01_1_M012,102.66,104.4424,We've got to say it to him.,ang,train
+Ses02M_script01_1_M013,106.0,111.17,"For God sakes it's been three years, nobody comes back after three years, that's insane.",ang,train
+Ses02M_script01_1_M018,140.67,143.1,I'm going to ask her to marry me.,neu,train
+Ses02M_script01_1_M021,156.49,159.32,See it isn't just my business-,ang,train
+Ses02M_script01_1_M024,186.36,198.37,"I don't know why but every time I reach out for something that I really want, I have to pull back 'cause someone else will suffer. My whole bloody life, time after time after time.",ang,train
+Ses02M_script01_1_F023,197.48,200.72,You're a considerate fellow. There's nothing wrong with that.,neu,train
+Ses02M_script01_1_M025,199.88,201.62,To hell with that.,ang,train
+Ses02M_script01_1_F025,206.62,210.61,How do you know she'll marry you? Maybe she feels the same way your father does.,neu,train
+Ses02M_script01_1_M028,215.81,223.11,"I don't know, I'll find out. Then we'll trash it out with dad, right? Mom, don't avoid me.",sad,train
+Ses02M_script01_1_F026,223.32,227.13,"Trouble is you don't see enough women, you never did.",ang,train
+Ses02M_script01_1_F027,229.74,233.09,I just don't see why it has to be Annie.,ang,train
+Ses02M_script01_1_M035,279.67,284.37,"If I can't do that here well, then I'll have to get out.",sad,train
+Ses02M_script01_1_F032,283.82,286.26,What the hell is this?,ang,train
+Ses02M_script01_1_M036,285.92,290.93,"I'll get out. I'll get married and go live some place else, maybe New York.",sad,train
+Ses02M_script01_1_F033,290.44,293.25,"What the hell is this, are you crazy?",ang,test
+Ses02M_script01_1_M037,292.82,297.17,"I've been a good son too long a good sucker, I'm through with it.",ang,train
+Ses02M_script01_1_F034,296.62,299.7,What about the business? What is this?,ang,train
+Ses02M_script01_1_M038,298.96,302.69,The business? The business doesn't inspire me.,ang,train
+Ses02M_script01_1_F035,301.45,304.04,Must you be inspired?,ang,train
+Ses02M_script01_1_M039,302.99,310.24,"Yes, I like it and hour a day. If I'm going to grub for money all day long, at least in the evening I want it beautiful.",ang,validation
+Ses02M_script01_1_F036,320.71,323.57,"Tell me, you'd leave the business?",ang,train
+Ses02M_script01_1_M041,323.69,326.52,"Yes, on this I would.",sad,train
+Ses02M_script01_1_F037,326.65,329.41,"Well, you don't want to think like that.",ang,validation
+Ses02M_script01_1_F041,354.1,356.18,"Yea, I can see that.",sad,train
+Ses02M_script01_2_F000,5.977,8.33,Why did he invite her here?,ang,train
+Ses02M_script01_2_F001,9.36,13.45,She's been in New York three and half years why all of a sudden-,ang,train
+Ses02M_script01_2_F002,15.21,18.38,Nobody comes seven hundred miles just to see.,ang,train
+Ses02M_script01_2_F003,28.3,30.63,He's not going to marry her.,ang,train
+Ses02M_script01_2_M004,30.24,32.42,How do you know he's even thinking of it?,neu,train
+Ses02M_script01_2_F005,36.97,39.22,What's going on here Joe?,ang,train
+Ses02M_script01_2_F006,39.45,43.03,-She's not his girl Joe; she knows she's not.,ang,train
+Ses02M_script01_2_F010,74.84,83.06,"I want you to act like he's coming back, both of you. Don't you think I haven't noticed since he invited her, I won't stand for any nonsense",ang,train
+Ses02M_script01_2_F013,96.19,99.83,I need you to believe with me; I can't stand all alone.,sad,train
+Ses02M_script01_2_M016,113.24,115.93,"What does that mean, me above all?",ang,train
+Ses02M_script01_2_M017,116.1,118.81,Look at you -- look at you shaking.,ang,train
+Ses02M_script01_3_M000,9.346,12.5191,"I know, it went out of style, didn't it?",hap,validation
+Ses02M_script01_3_F001,11.9104,14.3718,It's all right. It's a good thing.,hap,train
+Ses02M_script01_3_F002,14.4248,19.533,"You know, it's lovely here, the air is sweet.",hap,train
+Ses02M_script01_3_F003,21.5974,28.9819,"No, not sorry. But, um. But I'm not gonna stay.",hap,train
+Ses02M_script01_3_F007,59.9223,63.416,"I knew they would, your mother anyway.",hap,test
+Ses02M_script01_3_F009,75.8028,80.5934,I guess this is why I came.,hap,train
+Ses02M_script01_3_F012,124.4235,128.2083,"Well, you started to write me",hap,train
+Ses02M_script01_3_F013,129.5846,131.7814,Every day since.,hap,train
+Ses02M_script01_3_M021,179.6875,183.1283,No. Nothing like that.,sad,train
+Ses02M_script01_3_F019,182.4666,192.0214,"Well, what's wrong? I mean, even in your letters there was some--something ashamed.",sad,train
+Ses02M_script01_3_M022,190.9891,196.812,"Yeah, I suppose I have been. But it's going from me.",sad,test
+Ses02M_script01_3_F021,202.2113,206.0226,It wouldn't work this way.,sad,train
+Ses02M_script01_3_M025,216.345,220.2621,"Well, I lost them.",sad,validation
+Ses02M_script01_3_M026,222.9618,226.0585,Just about all.,sad,train
+Ses02M_script01_3_M027,227.3025,234.5281,It takes some time for a guy to toss that off. 'Cause they weren't just men.,sad,train
+Ses02M_script01_3_M028,234.634,249.8263,"For instance, this one time, it had been raining several days and this kid came to me and gave me his last pair of dry socks. I put them in pocket. It's only a little thing, but those are the kind of guys I had.",sad,train
+Ses02M_script01_3_M029,249.9322,260.0957,"They didn't die, they killed themselves for each other. I mean that exactly. I mean, a little more selfish and they'd have been here today.",sad,train
+Ses02M_script01_3_M030,260.1751,276.8495,"I got this idea watching 'em go down. Everything was being destroyed, see, but it seemed that one new thing was made. A sort of responsibility. Man for man. You know what I mean?",sad,train
+Ses02M_script01_3_M031,276.929,289.3951,"To show that, to bring that onto the Earth again, like some kind of monument and everyone can feel it standing behind him and it would make a difference to him.",sad,train
+Ses02M_script01_3_M033,310.1721,332.6959,"And I felt what you said, ashamed somehow 'cause nobody had changed at all. It seemed to make suckers out of a lot of guys. I felt wrong to be alive to open the new bank book, drive the new car, see the new refrigerator.",sad,test
+Ses02M_script01_3_F025,359.3486,362.8688,Do you still feel that way?,sad,train
+Ses02M_script01_3_F026,365.3567,374.8585,"'Cause you mustn't feel that way. Because you have a right to everything you have, Chris. Everything, you understand that? Me too.",sad,train
+Ses02M_script01_3_F027,374.9644,383.4604,"I mean, and your money, there's- there's nothing wrong with your money. I mean, your father put hundreds of planes in the air. A man should be paid for that.",sad,validation
+Ses02M_script01_3_F028,387.7482,391.1095,What'll I do with a fortune?,hap,test
+Ses02M_script02_1_F001,42.86,44.95,What flashlight?,neu,train
+Ses02M_script02_1_F006,105.79,107.41,I'm cold.,neu,train
+Ses02M_script02_1_F016,197.37,199.0,I'm just not.,sad,train
+Ses02M_script02_1_F018,214.72,224.97,"Last year you'll also remember our shoes got wet, I got sand in my panties, you got a sore throat, we got into a big fight over nothing, and we didn't see the Grunions.",ang,test
+Ses02M_script02_1_F020,307.26,308.79,That's the wind.,neu,train
+Ses02M_script02_2_M002,10.12,14.9,Certainly it's not. Slightly exaggerated scientific fact.,neu,train
+Ses02M_script02_2_F005,46.56,54.37,Goddamn it Augie don't ask me that. I hate it when you ask me that. You always ask me that. It's insulting.,ang,validation
+Ses02M_script02_2_F006,54.83,59.2,We just have different ideas of what this evening is supposed to look like.,ang,train
+Ses02M_script02_2_F011,86.1688,98.2,I mean I feel like my whole life is going to be spent standing on the beach waiting for the fish to show up with my eyes open and my hands clasped expectantly and the fish won't show up.,ang,validation
+Ses02M_script02_2_F013,103.72,110.29,"I did want to see them, I always do. I mean I keep thinking that this is going to be the time and it never is.",ang,train
+Ses02M_script02_2_F015,144.71,151.11,Do you remember the first time we came to see it? It was about four years ago right after we got married.,sad,train
+Ses02M_script02_2_F016,151.14,160.04,"We thought I was pregnant and we opened a bottle of champagne but no glasses, you asked me to dance, we kicked off our shoes and you popped the cork.",sad,train
+Ses02M_script02_2_F017,160.5,169.2428,And when we were dancing you said the softest most intimate things to me right into my ears so I could feel them as much as hear them,sad,train
+Ses02M_script02_2_F018,169.26,177.37,"and I remember thinking that this is it you know. At last, at last I am as happy as I am supposed to be",sad,train
+Ses02M_script02_2_F019,177.39,182.97,"Just dancing barefoot in the sand, drinking champagne out of the bottle.",sad,train
+Ses02M_script02_2_F020,196.93,202.34,I'd rather not remember some things. I would rather not hope for some things.,sad,train
+Ses02M_script02_2_M021,201.82,207.29,"Yea. Okay, sure, no. I see. Listen, you want to dance?",neu,train
+Ses02M_script02_2_F021,206.92,207.87,No.,sad,train
+Ses02M_script02_2_F022,209.8,210.77,No.,sad,train
+Ses02M_script02_2_M023,210.71,212.51,Take off our shoes?,neu,train
+Ses02M_script02_2_M025,215.65,217.27,Get married again?,neu,train
+Ses02M_script02_2_M029,229.51,242.45,"Well welcome to the human race, all right. Do you think this is what I had in mind when I proposed? You think I had this great fantasy going that four years down the road we'd come to the beach and yell at each other over fish?",ang,train
+Ses02M_script02_2_F031,281.09,286.4,"Well, but this isn't anything like I thought anything would be like.",sad,train
+Ses02M_script02_2_F034,307.05,321.47,"I know that you meant this to be special and nice, and there's the sand and the moon and everything but I just couldn't help thinking about being somewhere else.",sad,train
+Ses02M_script02_2_M037,322.35,326.02,Maybe if you were with somebody else too.,sad,train
+Ses02M_script02_2_M038,326.34,332.26,"No, I know. But still, I know I don't make you happy.",sad,train
+Ses02M_script02_2_F037,338.13,341.18,Don't be ridiculous. I mean don't you know that?,hap,train
+Ses02M_script02_2_F038,341.2,348.55,"You're the one who probably wishes he was with someone else, someone who knew how to enjoy herself and didn't take everything so hard.",sad,train
+Ses02M_script02_2_M040,348.92,353.18,"Now that you mention it. No, I don't.",hap,train
+Ses02M_script02_2_M041,362.2472,368.35,I don't know it seemed like a pretty good spot to me. Look at the moon - view the moon view I got from here.,hap,train
+Ses02M_script02_2_M042,376.27,378.43,What have we got here?,hap,validation
+Ses02M_script02_2_F042,382.72,385.48,"Well, I guess we don't need glasses.",hap,train
+Ses02M_script02_2_F044,403.83,406.02,"Augie, I'm sorry.",sad,train
+Ses02M_script02_2_M045,405.3,409.48,"Shh, if we're very quiet the fish might come.",hap,train
+Ses02M_script02_2_F045,410.61,412.12,Or not.,hap,train
+Ses02M_script02_2_M046,412.47,413.86,Or not.,hap,train
+Ses02M_script03_1_F003,18.5326,20.8905,Now and always sweet.,hap,train
+Ses02M_script03_1_F006,34.9176,37.651,Behave exquisitely.,hap,train
+Ses02M_script03_1_M007,36.855,38.9426,With the most perfect poise.,hap,test
+Ses02M_script03_1_F007,38.1466,42.2165,"Yes, I should probably to a court curtsey.",hap,train
+Ses02M_script03_1_M008,41.781,46.2415,"Things that ought to matter dreadfully don't matter at all when one's is happy, do they?",hap,validation
+Ses02M_script03_1_M009,48.314,50.2964,Oh darling don't say that.,sad,train
+Ses02M_script03_1_M010,52.7895,56.484,Meaning that sacred and beautiful thing love?,hap,test
+Ses02M_script03_1_M011,57.8506,66.9518,What does it all mean that's what I ask- that's what I ask myself in my ceaseless quest for ultimate truth? Good God what does it all mean?,hap,validation
+Ses02M_script03_1_F015,94.2401,96.7481,"Oh dear, should we like that?",sad,train
+Ses02M_script03_1_M024,155.2896,158.9541,You remember that awful scene we had in Venice?,hap,validation
+Ses02M_script03_1_F021,157.9779,160.6512,Which particular one?,hap,validation
+Ses02M_script03_1_F022,164.1655,169.3167,"Oh Charles, that was his name Charles. It did wiggle so beautifully.",hap,validation
+Ses02M_script03_1_F023,169.9475,176.6757,I know you did. You threw it out of the window into the Grand Canal; I don't think I'll ever forgive you for that.,hap,train
+Ses02M_script03_1_F024,177.4867,180.2651,It went on intermittently for days.,hap,train
+Ses02M_script03_1_F025,183.4941,188.0446,It burned my comb too and all the towels in the bathroom.,hap,train
+Ses02M_script03_1_M029,186.723,189.3062,"That was a rouser, wasn't it?",hap,train
+Ses02M_script03_1_F027,192.7754,200.645,The manager came in and found us rolling around on the floor biting and scratching like panthers.,hap,train
+Ses02M_script03_1_M031,199.3084,201.8314,I'll never forget his face.,hap,train
+Ses02M_script03_1_F028,200.7651,205.3307,"Oh it was ridiculous, completely ridiculous.",hap,train
+Ses02M_script03_1_F029,206.4871,209.2956,And very much sillier.,hap,validation
+Ses02M_script03_2_M001,8.0684,11.7227,I knew nothing of the sort. You took presents from him.,ang,test
+Ses02M_script03_2_F002,17.8192,22.7036,No it wasn't. It was very pretty I still have it and I wear it often.,neu,validation
+Ses02M_script03_2_M003,21.6905,25.8152,You went out of your way to torture me over Peter Burden.,ang,train
+Ses02M_script03_2_F003,24.2956,28.6373,"No I didn't, you worked the whole thing up in your jealous imagination.",neu,test
+Ses02M_script03_2_M005,33.4132,36.0725,You let him kiss you; you said you did.,ang,train
+Ses02M_script03_2_M007,39.4011,41.4815,What about me?,ang,train
+Ses02M_script03_2_F007,40.7398,45.6966,"Well, if you hadn't been so nosey and suspicious you never wouldn't have known anything about it.",neu,train
+Ses02M_script03_2_M010,55.2122,57.5821,I have a little I think.,neu,train
+Ses02M_script03_2_F014,82.0767,83.3611,What?,ang,train
+Ses02M_script03_2_F019,106.7159,108.4345,Be quiet.,ang,train
+Ses02M_script03_2_F023,122.7984,129.6366,I don't care. Do you understand? I don't care. I don't care if they bark or roll about like hoops.,ang,train
+Ses02M_script03_2_M026,140.111,143.1502,What riotous time you must have had.,ang,train
+Ses02M_script03_2_M027,143.1864,147.0035,"No restraint at all, very enjoyable, never had much anyhow.",ang,train
+Ses02M_script03_2_F028,172.6559,174.8086,Oh be quiet.,ang,train
+Ses02M_script03_2_M031,174.0307,178.7343,"We can get a good little debate going about that, don't you think? Intemperate tots.",ang,train
+Ses02M_script03_2_M032,180.9956,183.6368,All right. I will.,neu,train
+Ses02M_script03_2_M033,185.5182,187.6529,Better turn that off I think.,neu,train
+Ses02M_script03_2_F035,212.1475,216.3264,You are far too temperamental. Try to control yourself.,ang,train
+Ses02M_script03_2_M039,215.3314,217.0862,Turn it off.,ang,train
+Ses02M_script03_2_F036,216.3625,218.4471,Stop it. Stop it. I hate you.,ang,train
+Ses02M_script03_2_M040,217.1224,219.7817,"Amanda, listen. Listen.",ang,test
+Ses02M_script03_2_F037,218.4791,224.3586,"Listen indeed. I'm sick and tired of listening to you, damn sadistic bully.",ang,validation
+Ses02M_script03_2_M041,223.2008,225.6611,Very amusing indeed.,ang,test
+Ses02M_script03_2_F038,224.449,230.9616,"Stop it. Stop it. I hate you, do you hear? You're overbearing and conceited and utterly impossible.",ang,train
+Ses02M_script03_2_M042,230.2018,236.6782,"You're a vile tempered, loose living, wicked little beast and I hope I never see you again as long as I live.",ang,train
+Ses02M_script03_2_F039,235.846,240.0792,"This is the end, do you hear? The end finally and forever.",ang,validation
+Ses02M_script03_2_M043,239.3375,241.4722,You're not going like this.,ang,test
+Ses02M_script03_2_F040,240.4772,242.5757,Oh yes I am.,ang,train
+Ses02M_script03_2_M044,241.6531,243.4983,You're not.,ang,train
+Ses02M_script03_2_F041,242.5938,254.0263,"Yes, I am. Let go of me you're cruel fiend and I hate and loathe you. Thank God I realized who you really are before I would ever, ever marry you again. I would never marry you again. I'd rather die in torment.",ang,train
+Ses02M_script03_2_M045,243.8601,245.3797,Shut up.,ang,train
+Ses02M_script03_2_M046,245.4159,246.5737,Shut up.,ang,train
+Ses02M_script03_2_M047,248.1838,257.9346,I wouldn't marry you again if you came to me on your bended knees. You're a evil minded little vampire. I hope to God I never see you again as long as I live.,ang,train
+Ses02M_script03_2_F042,254.0651,257.9526,You're a beast. I hate you. Stop it. Stop it.,ang,train

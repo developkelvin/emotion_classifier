@@ -41,7 +41,7 @@ class Classifier(metaclass=ABCMeta):
 
 class TextClassifier(Classifier):
 
-    def __init__(self, session_nums, base_dir='.', include_neu=False):
+    def __init__(self, session_nums=[1,2,3], base_dir='.', include_neu=True):
         """입력받은 값을 검증하고 필요한 데이터 및 라이브러리를 로드합니다.
         
         Arguments:
@@ -49,7 +49,7 @@ class TextClassifier(Classifier):
         
         Keyword Arguments:
             base_dir {str} -- [작업 공간을 지정합니다.] (default: {'.'})
-            include_neu {bool} -- [중립 감정을 포함할지 설정합니다.] (default: {False})
+            include_neu {bool} -- [참조할 데이터셋에 중립 감정을 포함할지 설정합니다.] (default: {True})
         
         Raises:
             TypeError: session_nums 파라미터는 반드시 리스트로 받아야 합니다.
@@ -61,8 +61,8 @@ class TextClassifier(Classifier):
         else:
             self.session_nums = session_nums
 
-        for session_num in session_nums:
-            self.make_text_dataset(session_num, include_neu=include_neu)
+        # for session_num in session_nums:
+        #     self.make_text_dataset(session_num, include_neu=include_neu)
 
         # base_dir = os.path.join('drive', 'My Drive', 'chatbot')
         text_dir = os.path.join(base_dir, 'dataset',  'iemocap_text')
@@ -156,83 +156,14 @@ class TextClassifier(Classifier):
         X_test = self.preprocess_X(text)
         y_pred = self.model.predict_classes(X_test)
         y_pred = self.label_encoder.inverse_transform(y_pred)
-        return y_pred
+        return y_pred[0]
 
-    def make_text_dataset(self, session_num, print_warn=False, include_neu=False):
-        import os
-        import glob
-        import pandas as pd
-        
-        session_num = str(session_num)
-        # Label 불러오기
-        LABEL_PATH = os.path.join('dataset', 'master')
-        LABEL_FNAME = f'session{session_num}-train-val-test.csv'
-
-        fpath = os.path.join(LABEL_PATH, LABEL_FNAME)
-        
-        label = pd.read_csv(fpath)
-        
-        SCRIPT_PATH = os.path.join('dataset', 'IEMOCAP_full_release', f'Session{session_num}', 'dialog', 'transcriptions', '*')
-        file_list = glob.glob(SCRIPT_PATH)
-        file_list_script = [file for file in file_list if file.endswith(".txt")]
-
-        rows = []
-
-        for file in file_list_script:
-            with open(file, 'r') as f:
-                for line in f.readlines():
-                    row = dict()
-                    contents = line.split()
-                    if len(contents) > 0:
-                        try:
-                            script_id = contents[0]
-                            time_str = contents[1].replace('[','').replace(']','').replace(':','')
-                            start_time = float(time_str.split('-')[0])
-                            end_time = float(time_str.split('-')[1])
-                            text = ' '.join(contents[2:])
-
-                            row['script_id'] = script_id
-                            row['start_time'] = start_time
-                            row['end_time'] = end_time
-                            row['text'] = text
-                            row['label'] = ''
-
-                            rows.append(row)
-                        except ValueError as e:
-                            if print_warn:
-                                print('ValueError',e,file,line)
-                        except IndexError as ie:
-                            if print_warn:
-                                print('IndexError', ie, line)
-                            
-        df = pd.DataFrame(rows)
-        
-        try:
-            # name에 공백 제거
-            df['script_id'] = df['script_id'].apply(lambda x:x.replace(' ', ''))
-            label['name'] = label['name'].apply(lambda x:x.replace(' ', ''))
-            
-            if include_neu:
-                pass
-            else:
-                # lable 중 neu 제외
-                label = label[label['emotion'] != 'neu'].reset_index(drop=True)
-
-            merged = pd.merge(df, label, left_on='script_id', right_on='name')[['script_id', 'start_time', 'end_time', 'text', "emotion", "use"]]
-            if merged.shape[0] != label.shape[0]:
-                print(f'merged : {merged.shape}, df : {df.shape}, label : {label.shape}')
-                raise ValueError('size is changed before and after merged')
-            
-            text_dir = os.path.join('dataset',  'iemocap_text')
-            merged.to_csv(os.path.join(text_dir, f'session{session_num}_text.csv'), index=False)
-        except KeyError as ke:
-            print('Data Not Exist') # 텍스트 데이터를 못불러와서 df가 비어있음
-
+    
 class VideoClassifier(Classifier):
     def __init__(self):
         pass
     def load_model(self, model):
-        return super().load_model(model)
+        pass
 
     def load_data(self, model):
         pass
@@ -247,8 +178,8 @@ class AudioClassifier(Classifier):
     def __init__(self):
         pass
 
-    def load_model(self, model):
-        return super().load_model(model)
+    def load_model(self):
+        pass
 
     def preprocess_data(self):
         pass
