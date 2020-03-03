@@ -45,14 +45,14 @@ class TextClassifier(Classifier):
         """입력받은 값을 검증하고 필요한 데이터 및 라이브러리를 로드합니다.
         
         Arguments:
-            session_nums {[list]} -- [실험에 사용할 세션을 지정합니다.]
+            session_nums {list} -- [실험에 사용할 세션을 지정합니다.]
         
         Keyword Arguments:
             base_dir {str} -- [작업 공간을 지정합니다.] (default: {'.'})
             include_neu {bool} -- [중립 감정을 포함할지 설정합니다.] (default: {False})
         
         Raises:
-            TypeError: [session_nums 변수는 반드시 리스트로 받아야 합니다.]
+            TypeError: session_nums 파라미터는 반드시 리스트로 받아야 합니다.
             Exception: []
         """
 
@@ -66,112 +66,97 @@ class TextClassifier(Classifier):
 
         # base_dir = os.path.join('drive', 'My Drive', 'chatbot')
         text_dir = os.path.join(base_dir, 'dataset',  'iemocap_text')
+
         if len(session_nums) == 1:
+            if include_neu:
+                fname = f'session{session_nums[0]}_text_neu.csv'
+            else:
+                fname = f'session{session_nums[0]}_text.csv'
             self.text_dset = pd.read_csv(os.path.join(text_dir, f'session{session_nums[0]}_text.csv')) # 미리 전처리 해 놓은 데이터
         elif len(session_nums) > 1:
-            dir_list = [os.path.join(text_dir, f'session{no}_text.csv') for no in session_nums]
+            if include_neu:
+                dir_list = [os.path.join(text_dir, f'session{no}_text_neu.csv') for no in session_nums]
+            else:
+                dir_list = [os.path.join(text_dir, f'session{no}_text.csv') for no in session_nums]
             base = pd.read_csv(dir_list[0])
             for path in dir_list[1:]:
                 df = pd.read_csv(path)
-                base.append(df, ignore_index=True)
+                base = base.append(df, ignore_index=True)
             
             self.text_dset = base
         else:
             raise Exception('Unknown Error')
-
-        all_labels = self.text_dset['emotion']
-        le = LabelEncoder()
-        self.le = le.fit(all_labels)
         
         # 필요한 nltk 라이브러리 다운
-        nltk.download('popular')
+        # nltk.download('popular')
 
-    def load_model(self, model_path='models/text_model.h5'):
+    def load_model(self, model_path='models/text_model.h5', tokenizer_path='models/tokenizer.pickle', le_path='models/le.pickle'):
         """pre-train 된 모델을 불러옵니다.
         
         Keyword Arguments:
             model_path {str} -- 불러올 모델이 저장된 경로를 입력합니다. (default: {'models/text_model.h5'})
+            tokenizer_path {str} -- tokenizer를 불러올 경로를 입력합니다. (default: {'models/tokenizer.pickle'})
+            le_path {str} -- label_encoder를 불러올 결로를 입력합니다. (default: {'models/le.pickle'})
         """
         # reference : https://www.tensorflow.org/guide/keras/save_and_serialize
+        import pickle
+
         self.model = keras.models.load_model(model_path)
+        with open(tokenizer_path, 'rb') as f:
+            self.tokenizer = pickle.load(f)
+        with open(le_path, 'rb') as f:
+            self.label_encoder = pickle.load(f)
 
-    def preprocess_all_data(self):
-        text_dset = self.text_dset
-        def preprocess_X(texts, maxlen=100):
-            from nltk.corpus import stopwords
-            from nltk.tokenize import word_tokenize
-            from nltk.stem import PorterStemmer, LancasterStemmer
+    def preprocess_X(self, texts, maxlen=100):
+        from nltk.corpus import stopwords
+        from nltk.tokenize import word_tokenize
+        from nltk.stem import PorterStemmer, LancasterStemmer
+        stop_words = set(stopwords.words('english'))
+        pst = PorterStemmer()
+        # 토큰화
+        tokens = []
+        for txt in texts:
+            token = word_tokenize(txt)
+            non_stopwords = [pst.stem(t) for t in token if not t in stop_words]
+            tokens.append(non_stopwords)
+        if self.tokenizer is None:
+            raise ValueError('tokenizer is not loaded')
+        tokenizer = self.tokenizer
+        sentences = tokenizer.texts_to_sequences(tokens)
+        X = pad_sequences(sentences, maxlen=maxlen)
+        return X
 
-            stop_words = set(stopwords.words('english'))
-            pst = PorterStemmer()
+    def preprocess_y(self, labels):
+        if self.label_encoder is None:
+            raise ValueError('label encoder is not loaded')
+        labels = self.label_encoder.transform(labels)
+        labels = to_categorical(labels)
+        y = np.asarray(labels)
 
-            # 토큰화
-            tokens = []
-            for txt in texts:
-                token = word_tokenize(txt)
-                non_stopwords = [pst.stem(t) for t in token if not t in stop_words]
-                tokens.append(non_stopwords)
+        return y
 
-            tokenizer = Tokenizer()
-            tokenizer.fit_on_texts(tokens)
-            sentences = tokenizer.texts_to_sequences(tokens)
-            len_of_sentences = [len(s) for s in sentences]
-            sentence_maxlen = max(len_of_sentences)
-            sentence_lenavg = sum(len_of_sentences)/len(len_of_sentences)
-            print('문장의 개수:',len(len_of_sentences), '\n가장 긴 문장에 포함된 단어 수:',sentence_maxlen,'\n문장 평균 단어 수:', sentence_lenavg)
-            X = pad_sequences(sentences, maxlen=maxlen)
+    def get_data(self, script_id):
+        dset = self.text_dset
+        row = dset[dset['script_id'] == script_id]
+        text = row['text']
+        emotion = row['emotion']
 
-            return X
-
-        def preprocess_y(labels):
-            labels = self.le.transform(labels)
-            labels = to_categorical(labels)
-            y = np.asarray(labels)
-
-            return y
-        
-        train = text_dset[text_dset['use'] == 'train']
-        val = text_dset[text_dset['use'] == 'validation']
-        test = text_dset[text_dset['use'] == 'test']
-
-        self.X_train = preprocess_X(train['text'])
-        self.y_train = preprocess_y(train['emotion'])
-        self.X_val = preprocess_X(val['text'])
-        self.y_val = preprocess_y(val['emotion'])
-        self.X_test = preprocess_X(test['text'])
-        self.y_test = preprocess_y(test['emotion'])
-
-
-    def preprocess_one_data(self, script_id):
-        self.X_test = None
-        self.y_test = None
-        pass
-
-    def predict_all_test(self):
-        """[불러온 모델을 이용하여 클래스를 예측합니다.]
-        
-        Returns:
-            [str] -- [예측된 클래스를 리턴합니다. 리턴 값은 ang, hap과 같은 문자열 타입입니다.]
-        """
-        pred = self.model.predict_classes(self.X_test)
-        print(pred)
-        pred = self.le.inverse_transform(pred)
-        print(pred)
-        return pred
+        return text, emotion
 
     def predict(self, script_id):
-        """한 개의 script id에 대한 감정 예측
+        """한 개의 script id에 대한 감정 예측을 진행합니다.
         
         Arguments:
-            script_id {[type]} -- [description]
+            script_id {str} -- 예측할 스크립트 id를 입력합니다. (ex. )
         
         Returns:
-            [type] -- [description]
+            str -- 예측된 클래스를 리턴합니다. 리턴 값은 ang, hap과 같은 문자열 타입입니다.
         """
-        self.preprocess_one_data(script_id)
-        pred = self.model.predict_classes(self.X_test)
-        pred = self.le.inverse_transform(pred)
-        return pred
+        text, emotion = self.get_data(script_id)
+        X_test = self.preprocess_X(text)
+        y_pred = self.model.predict_classes(X_test)
+        y_pred = self.label_encoder.inverse_transform(y_pred)
+        return y_pred
 
     def make_text_dataset(self, session_num, print_warn=False, include_neu=False):
         import os
