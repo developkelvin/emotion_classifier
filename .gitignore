@@ -7,10 +7,9 @@ test.py
 .vscode
 requirements.txt
 models/cnn_test2.h5
-models/model_1.h5
-models/model_32_10.h5
-models/model_32_10.json
-
+models/text/
+models/audio/
+models/video
 # Created by https://www.gitignore.io/api/python,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=python,visualstudiocode
 
