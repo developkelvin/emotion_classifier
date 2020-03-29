@@ -448,7 +448,7 @@ class VideoClassifier(Classifier):
 
                 if file_name_list[k] == self.target_clip_name:
                     self.target_clip_emotion = final_label
-                    print(self.target_clip_name  + " : "  + final_label)
+                    # print(self.target_clip_name  + " : "  + final_label)
             return self.target_clip_emotion
         else:
             file_name_list, file_start_num_list, file_frame_num_list = self.read_clip(testval_dir)
@@ -474,7 +474,7 @@ class VideoClassifier(Classifier):
 
                 if file_name_list[k] == self.target_clip_name:
                     self.target_clip_emotion = final_label
-                    print(self.target_clip_name  + " : "  + final_label)
+                    # print(self.target_clip_name  + " : "  + final_label)
             return self.target_clip_emotion
 
 

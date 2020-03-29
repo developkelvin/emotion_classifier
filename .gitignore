@@ -10,6 +10,8 @@ models/cnn_test2.h5
 models/text/
 models/audio/
 models/video
+dataset/iemocap_video
+*.wav
 # Created by https://www.gitignore.io/api/python,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=python,visualstudiocode
 
