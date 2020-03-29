@@ -1,4 +1,5 @@
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # Error만 출력
 import pandas as pd
 import keras
 from sklearn.preprocessing import LabelEncoder
@@ -158,7 +159,8 @@ class TextClassifier(Classifier):
         X_test = self.preprocess_X(text)
         y_pred = self.model.predict_classes(X_test)
         y_pred = self.label_encoder.inverse_transform(y_pred)
-        return y_pred[0]
+        label_idx = {0:'neu',1:'hap', 2:'ang',3:'sad'}
+        return label_idx[y_pred[0]]
 
     
 class VideoClassifier(Classifier):
@@ -208,7 +210,7 @@ class VideoClassifier(Classifier):
 
         self.include_neu = include_neu
 
-        print("Processing - Video split to Clip and Frame")
+        # print("Processing - Video split to Clip and Frame")
 
         # csv파일을 읽어 참조할수있는 list 생성
 
@@ -494,7 +496,7 @@ class AudioClassifier(Classifier):
         angry = 0
         sad = 0
         happy = 0
-        EMOTIONS = ['Sad', 'Angry', 'Happy']
+        EMOTIONS = ['sad', 'ang', 'hap']
         for i in range(len(predictions)):
             sad += predictions[i][0]
             angry += predictions[i][1]
