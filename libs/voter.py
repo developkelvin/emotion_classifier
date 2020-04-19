@@ -37,21 +37,20 @@ class Voter:
 
         t = TextClassifier()
         t.load_model(model_path='models/text/class3_model2.h5', tokenizer_path='models/text/class3_tokenizer.pickle', le_path='models/text/class3_label_encoder.pickle')
-        
         text_predict = t.predict(test_id)
-        
-
-        v = VideoClassifier(test_id,session_nums=[1],include_neu=True)
-        v.preprocess_data()
-        v.load_model('models/video/test_model')
-        video_predict = v.predict()
         
         audio_fname = f"{test_id}.wav"
         audio_path = os.path.join('dataset', 'iemocap_audio', 'raw', audio_fname)
         a = AudioClassifier(audio_path)
-        a.load_model('models/audio/model.hdf5')
+        a.load_model('models/audio/cnn_session1_2_3_test.h5')
         audio_predict = a.predict()
-
+        
+        v = VideoClassifier(test_id,session_nums=[1],include_neu=True)
+        v.preprocess_data()
+        v.load_model('models/video/3class_session1_2_3')
+        video_predict = v.predict()
+        
+        
         self.scoring(text_predict, self._text_weight)
         self.scoring(video_predict, self._video_weight)
         self.scoring(audio_predict, self._audio_weight)
