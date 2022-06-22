@@ -34,7 +34,7 @@ mkl-service==2.3.0
 mock==4.0.1
 moviepy==1.0.1
 networkx==2.4
-numpy==1.18.1
+numpy==1.22.0
 opencv-python==4.2.0.32
 pandas==1.0.1
 Pillow==8.2.0
